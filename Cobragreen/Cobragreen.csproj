@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Images/backgroundDef.jpg"/>
+    <Resource Include="Images/ButtonTest1.png" />
+    <Resource Include="Images/backgroundTask1.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="Cobragreen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cobragreen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" >
+            <StackPanel.Background>
+                <ImageBrush ImageSource="Images/backgroundTask1.jpg" Stretch="UniformToFill"/>
+            </StackPanel.Background>
+            <Button x:Name="Page1" Content="Page1" Height="35" MinWidth="100" Margin="5,5,5,5" Click="Page1_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/ButtonTest1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Page2" Content="Page2" Height="35" MinWidth="100" Margin="5,5,5,5" Click="Page2_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/ButtonTest1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Page3" Content="Page3" Height="35" MinWidth="100" Margin="5,5,5,5" Click="Page3_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/ButtonTest1.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Frame x:Name="MyFrame" Grid.Row="1" ></Frame>
+    </Grid>
+</Window>
